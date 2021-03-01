@@ -1,0 +1,40 @@
+.Dossier{
+    margin: 10px;
+    padding: 0;
+}
+
+.couverture{
+    position: relative;
+    text-align: center;
+
+}
+
+.deplacer{
+    z-index: 10;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    background-color: black;
+    color: darkgrey;
+    opacity: 0.5;
+    border-radius: 15px;
+    
+}
+
+.info{
+    position: relative;
+    background-color: black;
+    color: white;
+    margin-top: -22px;
+    padding: 8px;
+}
+
+.Plus{
+    position: absolute;
+    bottom: 25px;
+    right: 16px;
+    color: white;
+    cursor:pointer;
+    text-shadow: 3px 3px;
+    display: flex;
+}
